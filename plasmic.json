@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -74,6 +74,11 @@
           "id": "mSevG5lOsfW-",
           "name": "mintervoke.png",
           "filePath": "../public/plasmic/bo_mo/images/mintervokepng.png"
+        },
+        {
+          "id": "IfM9NqMV5vbu",
+          "name": "formobile-homo.png",
+          "filePath": "../public/plasmic/bo_mo/images/formobileHomopng.png"
         }
       ],
       "indirect": false,

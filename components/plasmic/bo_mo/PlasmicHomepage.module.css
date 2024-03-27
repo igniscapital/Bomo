@@ -48,6 +48,11 @@
   grid-column: 4;
 }
 @media (min-width: 0px) and (max-width: 768px) {
+  .section__epfC {
+    background: url("/plasmic/bo_mo/images/formobileHomopng.png") top 50% left 50% / cover repeat;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
   .section__epfC > * {
     grid-column: 4;
   }
@@ -74,6 +79,11 @@
 }
 .section__xl3R1 > * {
   grid-column: 4;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .section__xl3R1 {
+    height: auto;
+  }
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .section__xl3R1 > * {
@@ -198,6 +208,11 @@
 }
 .section___2Elqu > * {
   grid-column: 4;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .section___2Elqu {
+    height: auto;
+  }
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .section___2Elqu > * {
