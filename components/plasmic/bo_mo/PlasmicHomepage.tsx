@@ -156,7 +156,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   sty.text
                 )}
               >
-                {"CA :"}
+                {"CA : 7EFnPmFAubutGdWTeTzgb1fvYuMXNTZpXRcJ8oRpZsXS"}
               </div>
             </div>
             <div className={classNames(projectcss.all, sty.columns__qlGxq)}>
