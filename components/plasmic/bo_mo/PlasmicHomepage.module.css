@@ -32,7 +32,7 @@
   grid-row-gap: 16px;
   align-content: center;
   justify-items: center;
-  background: url("/plasmic/bo_mo/images/db80F6502410447B8588De40Eacb1D62Png.png") 0% 0% / cover;
+  background: url("/plasmic/bo_mo/images/db80F6502410447B8588De40Eacb1D62Png.png") 0% 0% / contain;
   grid-column-start: 1 !important;
   grid-column-end: -1 !important;
   grid-template-columns:
