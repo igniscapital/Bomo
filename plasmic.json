@@ -1,0 +1,115 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "23fYwdPj51FVqA99qFf36c",
+      "projectApiToken": "VcfGyGMSgRLG1oQ79cf1CqNm7HxwI815Kh17EmzIYv3SdRlHUE2GZSv2Vl5qSW0zZwBjIJSAEKh5d2Nw10bw",
+      "projectName": "BoMo",
+      "version": "latest",
+      "cssFilePath": "plasmic/bo_mo/plasmic.module.css",
+      "components": [
+        {
+          "id": "fXIqtJyGz0GK",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "23fYwdPj51FVqA99qFf36c",
+          "renderModuleFilePath": "plasmic/bo_mo/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/bo_mo/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        }
+      ],
+      "icons": [],
+      "images": [
+        {
+          "id": "cYAGiD72yvVg",
+          "name": "22fb6a9c-221f-4f18-89a2-7a503dff1f14.jpg",
+          "filePath": "../public/plasmic/bo_mo/images/_22Fb6A9C221F4F1889A27A503Dff1F14Jpg.jpg"
+        },
+        {
+          "id": "hc3AvTE123yV",
+          "name": "db80f650-2410-447b-8588-de40eacb1d62.png",
+          "filePath": "../public/plasmic/bo_mo/images/db80F6502410447B8588De40Eacb1D62Png.png"
+        },
+        {
+          "id": "QruGUC2oAWll",
+          "name": "DALL·E 2024-03-27 20.18.30 - Illustrate a humorous and exaggerated depiction of a Homo sapiens character mining Bitcoin in a comical and whimsical manner. This Homo sapiens, with_.png",
+          "filePath": "../public/plasmic/bo_mo/images/dalle20240327201830IllustrateAHumorousAndExaggeratedDepictionOfAHomoSapiensCharacterMiningBitcoinInAComicalAndWhimsicalMannerThisHomoSapiensWithPng.png"
+        },
+        {
+          "id": "9L58XB4ulYBa",
+          "name": "DALL·E 2024-03-27 20.20.40 - Illustrate a whimsical and exaggerated scene where a Homo sapiens character humorously attempts to burn Bitcoin in a comical misunderstanding of digit.png",
+          "filePath": "../public/plasmic/bo_mo/images/dalle20240327202040IllustrateAWhimsicalAndExaggeratedSceneWhereAHomoSapiensCharacterHumorouslyAttemptsToBurnBitcoinInAComicalMisunderstandingOfDigitpng.png"
+        },
+        {
+          "id": "Q3ir8--ODNiN",
+          "name": "tax.png",
+          "filePath": "../public/plasmic/bo_mo/images/taxpng.png"
+        },
+        {
+          "id": "mSevG5lOsfW-",
+          "name": "mintervoke.png",
+          "filePath": "../public/plasmic/bo_mo/images/mintervokepng.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "vCvIDHALuquN",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "0uEtoEHHq0G4",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "Ws5CU7cK2du4",
+        "name": "Screen",
+        "projectId": "23fYwdPj51FVqA99qFf36c",
+        "contextFilePath": "plasmic/bo_mo/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.327",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.327/dist/plasmic.schema.json"
+}
